@@ -1,11 +1,8 @@
-Markdown
-# ATLOCK 🔒
+ATLOCK
 
-[![Download Standalone App](https://img.shields.io/badge/Download-ATLOCK_v1.0.0_(Executable)-red?style=for-the-badge&logo=windows)](https://github.com/Akhouri-Anmol-Kumar/ATLOCK/blob/main/ATLOCK.zip)
+[![Download](https://img.shields.io/badge/⬇%20DOWNLOAD%20ATLOCK-red?style=for-the-badge&logoColor=white)](https://github.com/Akhouri-Anmol-Kumar/ATLOCK/releases/download/ATLOCK/Atlock.zip)
 
-⚡ Zero-Effort Launch:** Skip the folder digging and manual installation. Click the button above to instantly grab the ready-to-run standalone deployment package for ATLOCK!
-
-
+> **⚡ Zero-Effort Launch:** Skip the folder digging and manual installation. Click the button above to instantly grab the ready-to-run standalone deployment package for ATLOCK!
 
 ------------------
 
