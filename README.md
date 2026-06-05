@@ -1,172 +1,70 @@
-ATLOCK
+# ATLOCK
+### An Akhouri Systems Product
 
 [![Download](https://img.shields.io/badge/⬇%20DOWNLOAD%20ATLOCK-red?style=for-the-badge&logoColor=white)](https://github.com/Akhouri-Anmol-Kumar/ATLOCK/releases/download/ATLOCK/Atlock.zip)
 
-> **⚡ Zero-Effort Launch:** Skip the folder digging and manual installation. Click the button above to instantly grab the ready-to-run standalone deployment package for ATLOCK!
-
-------------------
-
-# 🔒 ATLOCK
-
-ATLOCK is a premium system lockdown and file protection application built by AKHOURI ANMOL KUMAR.
-
-Designed with a cyber-minimal interface and advanced protection systems, ATLOCK provides total system lock control and secure file guarding with password/PIN protection.
+> **⚡ Zero-Effort Launch:** Don't want to dig through the repository files or hunt for the Releases tab? Click the shiny red button above to instantly grab the ready-to-run standalone build package for ATLOCK!
 
 ---
 
-# ⚡ Core Features
+## What is ATLOCK?
 
-- Full system lockdown mode
-- Fullscreen lock interface
-- Always-on-top secure lock screen
-- Real-time countdown timer
-- Emergency lock-time reduction system
-- Premium cyber-inspired UI
-- Lightweight and optimized
-- Sleep-mode monitoring system
-- Near-zero idle CPU usage
-- Secure password hashing
-- Cross-platform lock support:
-  - Windows
-  - Linux
-  - macOS
+ATLOCK is a **Total Security Suite for Windows** — built by one developer who got tired of half-baked lock apps.
+Single `.exe`. No installation. No setup wizard. Just run it.
+
+> *"We build what others forgot to fix."* — Akhouri Systems
 
 ---
 
-# 🛡 FILE GUARD SYSTEM
+## Features
 
-ATLOCK File Guard allows users to lock files or applications using:
-- Password
-- PIN
+### 🔒 System Lockdown
+Lock your entire system for a set duration. Once locked — **no bypass, no escape.**
+Alt+Tab blocked. Win key blocked. Task Manager killed on sight.
+One emergency halve available — use it wisely.
 
-Supported features:
-- Lock up to 10 files/apps
-- Password-protected access
-- PIN-based protection
-- Real-time file monitoring
-- Hard-lock security system
-- Persistent protection after restart
-- Sleep-mode watchers for low resource usage
+### 🛡 File Guard
+**NTFS ACL-level** file locking — the deepest Windows allows.
+Protected files cannot be opened, moved, copied, or deleted by **anyone** — not even admins.
+Up to 10 files guarded simultaneously.
 
----
+### 🔑 Password Vault
+Encrypted local storage for Gmail passwords, UPI PINs, bank details — anything sensitive.
+- 3 wrong attempts = warning
+- 4th wrong attempt = **10-hour hard lockout on entire app**
+- All attempts logged with date, time, and tried password
+- Intruder logs auto-deleted after 24 hours
 
-# 🔥 HARD LOCK SECURITY
+### 🔔 Security Notification Panel
+Real-time in-app notification center.
+Every security event — failed unlocks, intruder attempts, file guard triggers — logged and visible.
 
-ATLOCK includes an advanced anti-bypass protection system.
-
-- 3 wrong attempts trigger:
-  - 10-hour HARD LOCK
-- During hard lock:
-  - nobody can access the file
-  - even the owner cannot bypass protection
-
-This system is designed for serious security and discipline enforcement.
-
----
-
-# 🎨 Interface Style
-
-ATLOCK follows:
-- Cyber-minimal aesthetics
-- Dark premium interface
-- Gold-accent security styling
-- Futuristic terminal-inspired design
-- Rounded modern UI components
+### ⚔ Security Hardening
+- Low-level **WH_KEYBOARD_LL hook** — blocks Alt+Tab, Win key, Escape, Alt+F4 system-wide
+- Background watchdog thread — **kills Task Manager, Process Hacker, ProcExp instantly**
+- Continuous focus enforcement — grabSet + focus_force loop
+- Stealth developer bypass — triple-click corner + master sequence
 
 ---
 
-# 🚀 How to Use
+## Installation
+Download the zip above
+Extract
+Run ATLOCK.exe
+That's it.
 
-1. Download the ZIP file
-2. Extract it
-3. Open `ATLOCK.exe`
-4. Use:
-   - LOCKDOWN mode
-   - FILE GUARD mode
-
-No installation required.
+No Python required. No installation. No admin setup.
+Requires: Windows 10 or later
 
 ---
 
-# ⚙️ LOCKDOWN MODE
+## About
 
-Features:
-- Set custom lock duration
-- Quick time presets:
-  - 30m
-  - 1h
-  - 2h
-  - 4h
-  - 8h
-- Countdown tracking
-- Emergency halve option
-- Automatic unlock after timer completion
+**ATLOCK** is a product of **Akhouri Systems** — a desktop software company built on one idea:
+if existing software frustrates you, build something better.
+
+Developed solely by **Akhouri Anmol Kumar** — Indian Software Developer.
 
 ---
 
-# 🛡 FILE GUARD MODE
-
-Users can:
-- Add protected files/apps
-- Set password or PIN
-- Remove protection securely
-- Monitor guarded files
-- Track hard-lock status
-
----
-
-# 🔐 Security System
-
-ATLOCK uses:
-- SHA-256 password hashing
-- Secure local database
-- Persistent guard configuration
-- Real-time verification system
-
----
-
-# 🛠️ Built With
-
-- Python
-- CustomTkinter
-- Tkinter
-
----
-
-# 🔮 Future Plans
-
-- Biometric authentication
-- Encrypted vault system
-- Multi-user protection
-- Dark-red security themes
-- USB lock mode
-- Advanced stealth protection
-- Activity analytics dashboard
-
----
-
-# 👨‍💻 Developer
-
-Developed by  
-AKHOURI ANMOL KUMAR
-
-Focused on:
-- Security software
-- System-level tools
-- Modern UI/UX
-- Lightweight desktop applications
-- Cyber-inspired interfaces
-
----
-
-# ⭐ Support
-
-If you like ATLOCK:
-- Star the repository
-- Share feedback
-- Suggest features
-- Support development
-
----
-
-> TOTAL SYSTEM LOCKDOWN
+*An Akhouri Systems Product · Developed by Akhouri Anmol Kumar · Indian Software Developer*
