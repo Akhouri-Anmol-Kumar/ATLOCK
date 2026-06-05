@@ -1,7 +1,7 @@
 # ATLOCK
 ### An Akhouri Systems Product
 
-[![Download](https://img.shields.io/badge/⬇%20DOWNLOAD%20ATLOCK-red?style=for-the-badge&logoColor=white)](https://github.com/Akhouri-Anmol-Kumar/ATLOCK/releases/download/ATLOCK/Atlock.zip)
+[![Download](https://img.shields.io/badge/⬇%20DOWNLOAD%20ATLOCK-red?style=for-the-badge&logoColor=white)](https://github.com/Akhouri-Anmol-Kumar/ATLOCK/releases/download/ATLOCK/ATLOCK.zip)
 
 > **⚡ Zero-Effort Launch:** Don't want to dig through the repository files or hunt for the Releases tab? Click the shiny red button above to instantly grab the ready-to-run standalone build package for ATLOCK!
 
