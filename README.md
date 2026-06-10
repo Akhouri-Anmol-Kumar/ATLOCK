@@ -14,6 +14,15 @@ Single `.exe`. No installation. No setup wizard. Just run it.
 
 > *"We build what others forgot to fix."* — Akhouri Systems
 
+⚠️ Windows Defender Warning — False Positive
+
+Windows may flag ATLOCK as suspicious. This is a false positive 
+common with unsigned Python-based applications.
+
+To install:
+1. Click "More info" on the warning
+2. Click "Run anyway"
+3. ATLOCK will open normally
 ---
 
 ## Features
