@@ -135,6 +135,24 @@ Low-level WH_KEYBOARD_LL hook
 → owner-only recovery path, retained by design
 
 ---
+                 ATLOCK v4
+
+       Lockdown Engine
+             │
+ ┌───────────┼────────────┐
+ │           │            │
+
+File Guard  Vault   Intruder Ops
+
+ │           │            │
+
+ACL      Encryption   Camera
+
+ │           │            │
+
+ └───────────┼────────────┘
+
+      Notification Center
 
 ## 📦 Installation
 
