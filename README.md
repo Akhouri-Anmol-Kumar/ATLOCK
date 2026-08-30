@@ -8,7 +8,7 @@
 
 ![Version](https://img.shields.io/badge/version-4.0-c9b97a?style=for-the-badge&labelColor=0a0a0a)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2B-4a7ab5?style=for-the-badge&labelColor=0a0a0a)
-![License](https://img.shields.io/badge/license-Proprietary-e05c4a?style=for-the-badge&labelColor=0a0a0a)
+![License](https://img.shields.io/badge/license-MIT-4a9e6b?style=for-the-badge&labelColor=0a0a0a)
 ![Made in India](https://img.shields.io/badge/made%20in-India-4a9e6b?style=for-the-badge&labelColor=0a0a0a)
 
 <br>
@@ -131,8 +131,6 @@ Low-level WH_KEYBOARD_LL hook
 → kills Task Manager, Process Hacker, ProcExp instantly
 🎯 Continuous focus enforcement
 → grab_set() + focus_force() loop, no window can steal focus
-🗝  Stealth developer bypass
-→ owner-only recovery path, retained by design
 
 ---
                  ATLOCK v4
@@ -177,6 +175,12 @@ Run ATLOCK_v4.exe
 - 🧹 Removed external Gmail/Telegram alert integrations for a **leaner, fully self-contained** app — zero external accounts, tokens, or internet dependency required to run ATLOCK
 - 🎬 Refined Intruder Ops pipeline (photo → escalation → video → alarm)
 - 🖥️ Redesigned Settings panel
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
