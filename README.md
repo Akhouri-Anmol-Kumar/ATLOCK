@@ -13,6 +13,8 @@
 
 <br>
 
+<img width="600" height="633" alt="Image" src="https://github.com/user-attachments/assets/0c3e061f-b19f-4a43-856c-9618e4c8b83b" />
+
 ### ⚡ Zero-Effort Launch
 
 **Don't want to dig through repo files or hunt for the Releases tab?**
