@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="120" src="https://github.com/user-attachments/assets/0c3e061f-b19f-4a43-856c-9618e4c8b83b" alt="ATLOCK logo" />
-
-# ATLOCK
+<a href="https://github.com/Akhouri-Anmol-Kumar/ATLOCK">
+  <img src="https://readme-typing-svg.demolab.com?font=Righteous&size=55&duration=3000&pause=1500&color=C9B97A&center=true&vCenter=true&width=600&height=90&lines=%F0%9F%94%92+ATLOCK;TOTAL+SECURITY+SUITE" alt="ATLOCK" />
+</a>
 
 **The Total Security Suite for Windows.**
 One `.exe`. Zero installers. Zero compromises.
@@ -16,13 +16,22 @@ One `.exe`. Zero installers. Zero compromises.
 
 <p>
   <img src="https://img.shields.io/github/stars/Akhouri-Anmol-Kumar/ATLOCK?style=flat-square&color=c9b97a" alt="stars">
-  <img src="https://img.shields.io/github/downloads/Akhouri-Anmol-Kumar/ATLOCK/total?style=flat-square&color=4a7ab5" alt="downloads">
+  <img src="https://img.shields.io/github/downloads/Akhouri-Anmol-Kumar/ATLOCK/v4.0/total?style=flat-square&color=4a7ab5&label=v4.0%20downloads" alt="v4.0 downloads">
   <img src="https://img.shields.io/github/last-commit/Akhouri-Anmol-Kumar/ATLOCK?style=flat-square&color=4a9e6b" alt="last commit">
   <img src="https://img.shields.io/github/issues/Akhouri-Anmol-Kumar/ATLOCK?style=flat-square&color=c94a4a" alt="issues">
 </p>
 
+<br>
+
+<a href="https://github.com/Akhouri-Anmol-Kumar/ATLOCK/releases/download/v4.0/ATLOCK.zip">
+  <img src="https://img.shields.io/badge/⬇️_DOWNLOAD_ATLOCK_v4.0-c9b97a?style=for-the-badge&labelColor=0a0a0a&logoColor=white" alt="Download ATLOCK v4.0" height="55">
+</a>
+
+<sub>Direct download · no sign-up · no ads</sub>
+
+<br><br>
+
 <p>
-  <a href="https://github.com/Akhouri-Anmol-Kumar/ATLOCK/releases/latest"><b>⬇️ Download Latest Release</b></a> ·
   <a href="#-features">Features</a> ·
   <a href="#-installation">Installation</a> ·
   <a href="#-faq">FAQ</a> ·
