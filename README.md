@@ -1,61 +1,91 @@
 <div align="center">
 
-# 🔒 ATLOCK
+<img width="120" src="https://github.com/user-attachments/assets/0c3e061f-b19f-4a43-856c-9618e4c8b83b" alt="ATLOCK logo" />
 
-### *An Akhouri Systems Product*
+# ATLOCK
 
-**Total Security Suite for Windows — one `.exe`, zero compromises.**
+**The Total Security Suite for Windows.**
+One `.exe`. Zero installers. Zero compromises.
 
-![Version](https://img.shields.io/badge/version-4.0-c9b97a?style=for-the-badge&labelColor=0a0a0a)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%2B-4a7ab5?style=for-the-badge&labelColor=0a0a0a)
-![License](https://img.shields.io/badge/license-MIT-4a9e6b?style=for-the-badge&labelColor=0a0a0a)
-![Made in India](https://img.shields.io/badge/made%20in-India-4a9e6b?style=for-the-badge&labelColor=0a0a0a)
+<p>
+  <img src="https://img.shields.io/github/v/release/Akhouri-Anmol-Kumar/ATLOCK?style=for-the-badge&color=c9b97a&labelColor=0a0a0a&label=version" alt="version">
+  <img src="https://img.shields.io/badge/platform-Windows%2010%2B-4a7ab5?style=for-the-badge&labelColor=0a0a0a" alt="platform">
+  <img src="https://img.shields.io/github/license/Akhouri-Anmol-Kumar/ATLOCK?style=for-the-badge&color=4a9e6b&labelColor=0a0a0a" alt="license">
+  <img src="https://img.shields.io/badge/made%20in-India-4a9e6b?style=for-the-badge&labelColor=0a0a0a" alt="made in India">
+</p>
+
+<p>
+  <img src="https://img.shields.io/github/stars/Akhouri-Anmol-Kumar/ATLOCK?style=flat-square&color=c9b97a" alt="stars">
+  <img src="https://img.shields.io/github/downloads/Akhouri-Anmol-Kumar/ATLOCK/total?style=flat-square&color=4a7ab5" alt="downloads">
+  <img src="https://img.shields.io/github/last-commit/Akhouri-Anmol-Kumar/ATLOCK?style=flat-square&color=4a9e6b" alt="last commit">
+  <img src="https://img.shields.io/github/issues/Akhouri-Anmol-Kumar/ATLOCK?style=flat-square&color=c94a4a" alt="issues">
+</p>
+
+<p>
+  <a href="https://github.com/Akhouri-Anmol-Kumar/ATLOCK/releases/latest"><b>⬇️ Download Latest Release</b></a> ·
+  <a href="#-features">Features</a> ·
+  <a href="#-installation">Installation</a> ·
+  <a href="#-faq">FAQ</a> ·
+  <a href="#-roadmap">Roadmap</a>
+</p>
+
+</div>
 
 <br>
 
-<img width="600" height="633" alt="Image" src="https://github.com/user-attachments/assets/0c3e061f-b19f-4a43-856c-9618e4c8b83b" />
-
-### ⚡ Zero-Effort Launch
-
-**Don't want to dig through repo files or hunt for the Releases tab?**
-Click the button below — grab the latest ready-to-run build in one click.
-
-[![Download Latest Release](https://img.shields.io/github/v/release/Akhouri-Anmol-Kumar/ATLOCK?style=for-the-badge&color=c9b97a&labelColor=0a0a0a&label=⬇️%20DOWNLOAD%20ATLOCK)](https://github.com/Akhouri-Anmol-Kumar/ATLOCK/releases/latest)
-
-</div>
+<p align="center">
+  <img width="640" alt="ATLOCK screenshot" src="https://github.com/user-attachments/assets/0c3e061f-b19f-4a43-856c-9618e4c8b83b" />
+</p>
 
 ---
 
 ## 🧭 What is ATLOCK?
 
-> *"We build what others forgot to fix."* — **Akhouri Systems**
+> *"We build what others forgot to fix."* — Akhouri Systems
 
-ATLOCK is a **Total Security Suite for Windows**, built by one developer who got tired of half-baked lock apps that promise security and deliver a password prompt.
+ATLOCK is a **Total Security Suite for Windows** — built by one developer who got tired of half-baked "lock apps" that promise security and deliver a password prompt.
 
-- 📦 Single `.exe`
-- 🚫 No installation
-- 🧙 No setup wizard
-- ▶️ Just run it
+- 📦 Single portable `.exe`
+- 🚫 No installation, no setup wizard
+- ▶️ Download → Run → Done
 
----
+<br>
+
+## 📋 Table of Contents
+
+- [Windows Defender Warning](#️-windows-defender-warning--this-is-a-false-positive)
+- [Features](#-features)
+- [Security Hardening](#️-security-hardening)
+- [Architecture](#-architecture)
+- [Installation](#-installation)
+- [What's New in v4.0](#-whats-new-in-v40)
+- [FAQ](#-faq)
+- [Roadmap](#-roadmap)
+- [Disclaimer](#️-disclaimer)
+- [License](#-license)
+- [About](#️-about)
+
+<br>
 
 ## ⚠️ Windows Defender Warning — This Is a False Positive
 
-Windows may flag ATLOCK as *"unrecognized app"* or *suspicious*. This is a **known false positive** common with unsigned, PyInstaller-built Python applications — not a sign of malware.
+Windows may flag ATLOCK as an *"unrecognized app"* or *suspicious*. This is a well-known false positive for unsigned, PyInstaller-built Python applications — **it is not malware.**
 
 <details>
-<summary><b>🛠️ How to run it anyway (click to expand)</b></summary>
+<summary><b>🛠️ How to run it anyway</b></summary>
 <br>
 
 1. Click **"More info"** on the SmartScreen warning
 2. Click **"Run anyway"**
 3. ATLOCK opens normally ✅
 
+> Code signing is on the [roadmap](#-roadmap) to remove this warning entirely.
+
 </details>
 
----
+<br>
 
-## ✨ Features — v4.0
+## ✨ Features
 
 <table>
 <tr>
@@ -66,16 +96,16 @@ Lock your entire system for a set duration. Once locked — no bypass, no escape
 - `Alt + Tab` blocked
 - `Win` key blocked
 - Task Manager killed on sight
-- One **emergency halve** available — use it wisely
+- One emergency unlock available — use it wisely
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡 File Guard
+### 🛡️ File Guard
 NTFS ACL-level file locking — the deepest access control Windows allows.
-- Protected files can't be opened, moved, copied, or deleted — **not even by admins**
+- Protected files can't be opened, moved, copied, or deleted, not even by admins
 - Guard up to **10 files** simultaneously
-- 3 wrong attempts trigger intruder response
+- 3 wrong attempts trigger the intruder response
 
 </td>
 </tr>
@@ -85,8 +115,8 @@ NTFS ACL-level file locking — the deepest access control Windows allows.
 ### 🔑 Password Vault
 Local, **AES-encrypted** (Fernet) storage for anything sensitive — emails, UPI PINs, bank details.
 - Master password hashed with **PBKDF2-HMAC-SHA256**, 200,000 iterations
-- 3 wrong attempts = warning
-- 4th wrong attempt = **10-hour hard lockout** on the entire app
+- 3 wrong attempts → warning
+- 4th wrong attempt → **10-hour hard lockout** on the entire app
 - All attempts masked before logging — never stored in plaintext
 
 </td>
@@ -94,8 +124,8 @@ Local, **AES-encrypted** (Fernet) storage for anything sensitive — emails, UPI
 
 ### 📸 Intruder Ops
 Every wrong attempt gets a response.
-- 📷 Photo captured on the **1st** wrong attempt
-- 🎥 **10-second video** captured on escalation (3rd/4th wrong)
+- 📷 Photo captured on the 1st wrong attempt
+- 🎥 10-second video captured on escalation (3rd/4th wrong)
 - 🔊 Audible alarm on critical intrusion
 - Auto-saved to your Pictures / Videos gallery
 
@@ -106,8 +136,8 @@ Every wrong attempt gets a response.
 
 ### 🔔 Security Notification Panel
 A real-time, in-app notification center.
-- Every security event logged — failed unlocks, intruder attempts, file guard triggers
-- Auto-deleted after **24 hours**
+- Every security event logged: failed unlocks, intruder attempts, file guard triggers
+- Auto-deleted after 24 hours
 - Live unread badge counter
 
 </td>
@@ -124,42 +154,40 @@ Full control from one clean panel.
 </tr>
 </table>
 
----
+<br>
 
 ## ⚔️ Security Hardening
-Low-level WH_KEYBOARD_LL hook
-→ blocks Alt+Tab, Win key, Escape, Alt+F4 system-wide
-🐕 Background watchdog thread
-→ kills Task Manager, Process Hacker, ProcExp instantly
-🎯 Continuous focus enforcement
-→ grab_set() + focus_force() loop, no window can steal focus
 
----
-                 ATLOCK v4
+| Mechanism | What it does |
+|---|---|
+| Low-level `WH_KEYBOARD_LL` hook | Blocks `Alt+Tab`, `Win`, `Esc`, `Alt+F4` system-wide during lockdown |
+| Background watchdog thread | Instantly kills Task Manager, Process Hacker, ProcExp |
+| Continuous focus enforcement | `grab_set()` + `focus_force()` loop — no window can steal focus |
 
-       Lockdown Engine
-             │
- ┌───────────┼────────────┐
- │           │            │
+<br>
 
-File Guard  Vault   Intruder Ops
+## 🏗️ Architecture
 
- │           │            │
+```mermaid
+flowchart TD
+    A[ATLOCK v4 — Lockdown Engine] --> B[File Guard]
+    A --> C[Password Vault]
+    A --> D[Intruder Ops]
+    B --> B1[NTFS ACL Control]
+    C --> C1[Fernet Encryption + PBKDF2]
+    D --> D1[Camera Capture]
+    B1 --> E[Notification Center]
+    C1 --> E
+    D1 --> E
+```
 
-ACL      Encryption   Camera
-
- │           │            │
-
- └───────────┼────────────┘
-
-      Notification Center
+<br>
 
 ## 📦 Installation
 
-Download the .exe from the Releases page (or click the button above)
-Extract (if zipped)
-Run ATLOCK_v4.exe
-
+1. Download `ATLOCK_v4.exe` from the [Releases page](https://github.com/Akhouri-Anmol-Kumar/ATLOCK/releases/latest)
+2. Extract it (if zipped)
+3. Run `ATLOCK_v4.exe`
 
 **That's it.** No Python required. No installation. No admin setup.
 
@@ -169,22 +197,71 @@ Run ATLOCK_v4.exe
 | Runtime | None — fully bundled |
 | Camera | Optional, enables Intruder Ops photo/video capture |
 
----
+<br>
 
 ## 🆕 What's New in v4.0
 
-- 🔐 Password Vault re-engineered with **real AES encryption** (Fernet + PBKDF2, 200k iterations) — replacing the old, weaker encoding scheme
-- 🧹 Removed external Gmail/Telegram alert integrations for a **leaner, fully self-contained** app — zero external accounts, tokens, or internet dependency required to run ATLOCK
+- 🔐 Password Vault re-engineered with real AES encryption (Fernet + PBKDF2, 200k iterations), replacing the old, weaker encoding scheme
+- 🧹 Removed external Gmail/Telegram alert integrations for a leaner, fully self-contained app — zero external accounts, tokens, or internet dependency required
 - 🎬 Refined Intruder Ops pipeline (photo → escalation → video → alarm)
 - 🖥️ Redesigned Settings panel
 
----
+<br>
+
+## ❓ FAQ
+
+<details>
+<summary><b>Is ATLOCK safe to run?</b></summary>
+<br>
+Yes. It's a locally-run, offline security tool. The Defender warning is a standard false positive for unsigned PyInstaller apps, not a sign of malicious behavior.
+</details>
+
+<details>
+<summary><b>Does ATLOCK send my data anywhere?</b></summary>
+<br>
+No. As of v4.0, ATLOCK has zero external integrations — everything (vault, photos, videos, logs) stays on your machine.
+</details>
+
+<details>
+<summary><b>What happens if I forget my master password?</b></summary>
+<br>
+There is currently no recovery mechanism by design, this is what makes the vault secure. Store your master password somewhere safe before relying on ATLOCK.
+</details>
+
+<details>
+<summary><b>Can I unlock a guarded file in an emergency?</b></summary>
+<br>
+System Lockdown includes one emergency unlock. File Guard does not currently have a bypass, that's the point of ACL-level locking. Be careful about which files you guard.
+</details>
+
+<br>
+
+## 🗺️ Roadmap
+
+- [ ] Code signing to eliminate the SmartScreen warning
+- [ ] Configurable lockdown/unlock schedules
+- [ ] Encrypted cloud backup for the vault (opt-in)
+- [ ] Multi-monitor lockdown support
+
+<br>
+
+## ⚠️ Disclaimer
+
+ATLOCK is intended for personal device security on machines you own or are authorized to manage. Features like Task Manager termination, keyboard hooking, and camera-based intruder capture are powerful, use responsibly and in compliance with local laws and workplace policies. The developer is not responsible for data loss resulting from forgotten passwords or misuse of the lockdown/file-guard features.
+
+<br>
+
+## 🤝 Contributing
+
+Issues and feature requests are welcome via the [Issues tab](https://github.com/Akhouri-Anmol-Kumar/ATLOCK/issues). Pull requests are welcome, please open an issue first to discuss significant changes.
+
+<br>
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+Licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
----
+<br>
 
 ## 🏛️ About
 
@@ -193,11 +270,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 **ATLOCK** is a product of **Akhouri Systems** — a desktop software company built on one idea:
 *if existing software frustrates you, build something better.*
 
-Developed solely by **Akhouri Anmol Kumar**
-*Indian Software Developer*
+Developed solely by **Akhouri Anmol Kumar** · Indian Software Developer
 
----
-
-**An Akhouri Systems Product** · Developed by **Akhouri Anmol Kumar** · Indian Software Developer
+<sub>An Akhouri Systems Product</sub>
 
 </div>
